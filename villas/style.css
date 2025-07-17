@@ -1,3 +1,10 @@
+html {
+  background-image: url('../images/backgroundImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .villa-container {
   width: 80%;
   max-width: 800px;
@@ -17,10 +24,12 @@
 
 .villa-image {
   width: 100%;
-  height: auto;
+  max-height: 400px;
+  object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 
 .villa-description {
   font-size: 1.1rem;
